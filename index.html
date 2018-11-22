@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>juego con javascript</title>
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--PANTALLA USUARIO-->
+<div class="pantalla-usuario">
+
+	<h1 class="nombre text-center">Ingresa tu nombre:</h1>
+
+  <div id="registo" class="text-center">
+	<input id="in1" type="text" value="" name="">
+  </div>
+
+  <button id="boton1">Ingresar</button>
+
+</div>
+
+<!--PANTALLA INICIO-->
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark d-none">
+  <a class="nombre-user navbar-brand text-light" href="#">Nombre</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="botonInicio nav-link text-light" href="#">Inicio<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Instrucciones</a>
+      </li>
+ 
+    </ul>
+ 
+  </div>
+  </nav>
+
+<div class="pantalla-inicio d-none">
+
+<div class="contenedorPelicula">
+
+ <h1 id="saludar"></h1>
+</div>
+<h4 class="introduccion1 text-light text-center">En este juego vas a poder divertite haciendo un....</h4>
+
+<h4 class="introduccion2 text-light">Elige el tema de tu quiz:</h4>
+<div class="container">
+        <div class="contenedor1">
+        <div class="row">
+        <div class="col-6">
+           <p>
+             Este quiz pondrá a prueba tu conocimiento de peliculas de populares.
+           </p>
+           <button class="peliculas">Peliculas</button>
+        </div>
+        <div class="col-6">
+        <img id="fotoPelicula" src="img/imegenDePelicula.jpg" alt="">
+        </div>
+        </div>
+        </div>
+   <div class="contenedor2">  
+   <div class="row"> 
+        <div class="col-6">
+          <p>En esta sección vas a poner a prueba tu conocimiento de series que seguramente conoces ya que son muy populares.</p>
+          <button class="series">Series</button>
+        </div>
+        <div class="col-6">
+        <img id="fotoSeries" src="img/imagenSeries.jpg" alt="">
+        </div>
+   </div>
+   </div>
+ <div class="row">
+  <div class="contenedorAnime">
+        <div class="col-6">
+          <p>En esta sección pondrás a prueba tus conocimientos de que tan otaku eres.</p>
+        <button class="animes">Animes</button>
+        </div>
+        <div class="col-6">
+          <img id="fotoAnime" src="img/imagenAnime.jpg" alt="">
+        </div>
+</div>
+</div>
+<div class="row">
+      <div class="col">
+      <button class="videojuegos">VideoJuegos</button>
+      </div>
+</div>
+<div class="row">
+       <div class="col">
+       <button class="comidas">Comidas</button>
+       </div>
+</div>
+</div>
+</div>
+
+<div class="container d-none">
+<div class="row">
+    <div class="col">
+      
+    </div>
+    <div class="col">
+  
+    </div>
+
+</div>
+</div>
+
+
+
+
+<!--INICIO DE SCRIPT-->
+
+	<script type="text/javascript" src="js/main.js">
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+
+.body{
+	background-image:url( ../img/imagen-inicio.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pantalla-inicio{
+	background-color: #4286f4;
+}
+
+#in1{
+
+	margin-top:70px ;
+	height: 60px;
+	width: 350px;
+	font-size: 25px;
+	text-align: center;
+}
+
+.nombre{
+	margin-top: 200px;
+}
+
+
+#boton1{
+	margin-top:30px ;
+	margin-left: 550px;
+    width:250px;
+    height:40px;
+    font-size: 23px;
+}
+
+#saludar{
+	color: white;
+	text-align: center;
+}
+
+
+.peliculas{
+	width:450px;
+	height: 50px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-right: 50px;
+}
+
+.series{
+	width:450px;
+	height: 50px;
+	margin-left: 50px;	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 50px;
+}
+
+.animes{
+	width:600px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.videojuegos{
+	width:600px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.comidas{
+	width:600px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.introduccion2{
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-top: 10px;
+}
+
+
+p{
+	color: white;
+	text-align: center;
+}
+
+
+.contenedor1{
+
+background-color: #f48c42;	
+border:1px dotted black;
+
+}
+
+#fotoPelicula{
+	width: 300px;
+	margin-left: 30px;
+}
+
+.contenedor2{
+   background-color: #f48c42;	
+   border:1px dotted black;
+   margin-top: 20px;
+}
+
+#fotoSeries{
+	width: 300px;
+	margin-left: 30px;
+	
+	height: 200px;
+}
+
+.tituloP{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
